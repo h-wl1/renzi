@@ -42,9 +42,9 @@
   },
   "lint-staged": {
     "*.{js,ts,vue,jsx,tsx}": [
-      "prettier --write.",
+      "prettier --write",
       "eslint --cache --fix",
-      "git add ."
+      "git add "
     ]
   },
   "config": {
